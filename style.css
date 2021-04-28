@@ -5,6 +5,7 @@
 
 body {
    margin: 0;
+   height: auto;
    padding:0;
    box-sizing: border-box; 
    align-items: center;
@@ -88,6 +89,7 @@ ul li {
     justify-content: center;
     background-color: var(--primary);
     padding: 5px 9px 9px;
+    
 }
 
 .social-container img {
@@ -107,7 +109,7 @@ ul li {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    padding: 0px 18px 18px;
+    padding: 18px 18px 18px;
     background-color: var(--primary);
     align-items: center;
     
@@ -117,4 +119,11 @@ hr.line {
     color: #222222;
     max-width: 90%;
     border: .5px solid; 
+}
+
+.footer {
+    color: var(--secondary);
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 1.5rem;
 }
